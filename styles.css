@@ -13,6 +13,11 @@ h1{
 	gap:10px;
 	
 }
+.book{
+	display:flex;
+	flex-direction:column;
+	gap:5px;
+}
 img{
 display: block;
   margin-left: auto;

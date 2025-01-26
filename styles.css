@@ -1,25 +1,21 @@
 /*  your css code here. If applicable */
 body{
-	background-color:#f8f8f8;
+	background-color:black;
 }
 h1{
 	text-align:center;
-	margin:20px;
 }
 .book-library{
 	background-color:#ffffff;
 	display:flex;
 	flex-direction:column;
-	gap:10px;
-	
+	gap:100px;
 }
 .book{
 	display:flex;
 	flex-direction:column;
-	gap:5px;
 }
 img{
-display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -28,8 +24,27 @@ p{
 	color:#777777
 }
 b{
-	display:block;
 	text-align:center;
 	background-color:#2ecc71;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

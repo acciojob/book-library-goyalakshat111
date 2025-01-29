@@ -1,4 +1,9 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
 body{
 	background-color:#f8f8f8;
 }
@@ -10,26 +15,25 @@ h1{
 	background-color:#ffffff;
 	display:flex;
 	flex-direction:column;
-	gap:10px;
+	gap:20px;
 	
 }
 .book{
 	display:flex;
 	flex-direction:column;
-	gap:5px;
+
 }
 img{
-display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 p{
-	color:#777777
+		color:#777777	
 }
 b{
-	display:block;
 	text-align:center;
 	background-color:#2ecc71;
+	color:white;
 }
 

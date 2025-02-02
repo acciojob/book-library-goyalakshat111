@@ -1,39 +1,47 @@
-/*  your css code here. If applicable */
-*{
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-}
 body{
-	background-color:#f8f8f8;
-}
-h1{
-	text-align:center;
-	margin:20px;
+	background:#f8f8f8;
+	margin:0;
 }
 .book-library{
-	background-color:#ffffff;
-	display:flex;
-	flex-direction:column;
-	gap:20px;
-	
-}
-.book{
-	display:flex;
-	flex-direction:column;
-
-}
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	width:50%;
+	background:#ffffff;
+	box-shadow:5px 20px 20px 1px gray;	
 }
 p{
-		color:#777777	
+	margin:0;
+	padding:0;
+	color:rgb(119, 119, 119);
 }
-b{
+.btn{
+	height:30px;
+	width:100%;
+	background:rgb(46,204,113);
+	border:none;
+	color:rgb(255,255,255);
+	border-radius:5px;
 	text-align:center;
-	background-color:#2ecc71;
-	color:white;
+	padding-top:10px;
+}
+img{
+	height:300px;
+	width:40%;
+	margin-left:30%;
+}
+.book{
+	display:block;
+	margin-top:10px;
+	background:#f8f8f8;
+}
+h1{
+	margin:0;
+	padding:0;
+	text-align:center;
+	background:#f8f8f8;
+}
+.a{
+	color:#777777;
+}
+h2{
+	color:rgb(119, 119, 119);
 }
 
